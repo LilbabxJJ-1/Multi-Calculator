@@ -88,13 +88,15 @@ while again == True:
   subtract(sub1, sub2)
 
   another = input("Do you want to do another? (Y/N) ")
+  
+ 
   if another == "Y" or another == "y":
     again = True
   else:
     print("Alright! Come back later")
     again = False 
 
-  if operation == 5:
+ if operation == 5:
    multi1 = float(input("What's your first number? "))
    multi2 = float(input("What number do you wanna multiply? "))
    def product(num1, num2):
@@ -102,9 +104,9 @@ while again == True:
     print(f"Your Product: {product}")
    product(multi1, multi2)
 
-  another = input("Do you want to do another? (Y/N) ")
-  if another == "Y" or another == "y":
+   another = input("Do you want to do another? (Y/N) ")
+ if another == "Y" or another == "y":
     again = True
-  else:
+ else:
     print("Alright! Come back later")
     again = False 
