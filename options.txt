@@ -6,6 +6,6 @@ Physics:
 Operations:
 3 - Addition
 4 - Subtraction
-5 - Multiplication
-6 - Subtraction
+5 - Multiplication (Soon..)
+6 - Division (Soon..)
 *****************
