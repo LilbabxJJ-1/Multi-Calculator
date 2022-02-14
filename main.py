@@ -11,7 +11,7 @@ while again == True:
    line = credit.read()
    print(line)
   
- available_options = [1,2,3,4]
+ available_options = [1,2,3,4,5]
 
  while True:
   try:
